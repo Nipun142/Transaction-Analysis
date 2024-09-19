@@ -20,5 +20,5 @@ Purpose: Provide real-time insights with minimal manual intervention.
 Implementation: Power BI is linked to the live MongoDB database, ensuring reports automatically update with each new UPI transaction.
 This pipeline efficiently manages the extraction, storage, and visualization of UPI transaction data.
 
-
+# Note
 Added the report as a PDF to provide a static, secure view of the project without exposing sensitive transaction data. Please note that the actual report is fully interactive and functional, allowing for dynamic exploration of the data when viewed in Power BI.
