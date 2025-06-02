@@ -15,10 +15,10 @@ import os
 # === Load environment variables ===
 load_dotenv()
 
-EMAIL = os.getenv("EMAIL")
-PASSWORD = os.getenv("PASSWORD")
-IMAP_SERVER = os.getenv("IMAP_SERVER")
-DB_URL = os.getenv("DB_URL")
+EMAIL = os.environ["EMAIL"]
+PASSWORD = os.environ["PASSWORD"]
+DB_URL = os.environ["DB_URL"]
+IMAP_SERVER = os.environ["IMAP_SERVER"]
 
 # === Utility Functions ===
 def clean_subject(subject):
